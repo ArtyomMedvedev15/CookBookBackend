@@ -1,10 +1,14 @@
 package com.cookbook.config;
 
+import com.cookbook.dao.implementation.CommentDaoImpl;
 import com.cookbook.dao.implementation.ContactDaoImpl;
 import com.cookbook.dao.implementation.RecipeDaoImpl;
+import com.cookbook.dao.interfaces.CommentDao;
 import com.cookbook.dao.interfaces.ContactDao;
 import com.cookbook.dao.interfaces.RecipeDao;
+import com.cookbook.service.CommentServiceImpl;
 import com.cookbook.service.RecipeServiceImpl;
+import com.cookbook.service.interfaces.CommentService;
 import com.cookbook.service.interfaces.RecipeService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -36,9 +40,21 @@ public class SpringConfig {
      }
 
      @Bean
+     public CommentDao commentDao(){
+        return  new CommentDaoImpl(getDataSource());
+     }
+
+     @Bean
      public RecipeService employeeService(){
         return new RecipeServiceImpl();
      }
+
+     @Bean
+     public CommentService commentService(){
+        return new CommentServiceImpl();
+     }
+
+
 
 }
 
