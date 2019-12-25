@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-image: url('bg.jpg');
+}
+
+.listSection{
+    margin-top: 100px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.text-section p{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-left: 3px solid #fff;
+    border-right: 3px solid #fff;
+    color: #fff;
+}
+table, td, th {
+    border: 1px solid #212121;
+    text-align: left;
+    background: #fff;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 15px;
+}
+
+tr th{
+    background-color: #424242;
+    color:#fff;
+}
+.default_btn{
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 24px;
+    color: #202120;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 4px 40px 8px 35px;
+    border: 3px solid #f44336;
+    border-right-width: 20px;
+    position: relative;
+    z-index: 2;
+    outline: none;
+    transition: .7s all;
+}
+.default_btn:hover{
+    background-color: #f44336;
+    color:#fff;
+}
+
+.card{
+    width: 400px;
+    height: 500px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 15px;
+    background: rgba(13, 13, 13, 0.5);
+}
+.card-text-logo p{
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 8px;
+  }
+
+.card-inner input{
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    transition: .1s all;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+
+}
+
+.card-inner input:focus{
+    border-left: 3px solid #43A047;
+}
+#genLog, #depLog{
+    color: #fff;
+    font-size: 19px;
+    padding-left: 25px;
+}
+.card-inner select{
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 350px;
+    margin-bottom: 10px;
+}
+.card-button{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-button-edit button,.card-button button{
+    background: transparent;
+}
+.card-button .default_btn{
+    color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+.card-button-edit{
+    margin: 0;
+}
+.card-button-edit .default_btn{
+    margin-top: 15px;
+    color:#fff;
+    margin-left: 10px;
+}
+
+#add-btn{
+    color: #ffffff;
+    margin-bottom: 8px;
+    float: right;
+}
