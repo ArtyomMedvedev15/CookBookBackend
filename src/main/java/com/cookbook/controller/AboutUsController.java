@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-@Controller
 @RequestMapping("/about")
+@Controller
 public class AboutUsController {
 
     private final ContactUsService contactUsService;

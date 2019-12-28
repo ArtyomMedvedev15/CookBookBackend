@@ -14,7 +14,7 @@ public class ContactMapper implements RowMapper<ContactUs> {
         contactUs.setNameSends(resultSet.getString("nameSends"));
         contactUs.setTextSends(resultSet.getString("sonameSends"));
         contactUs.setDateSends(resultSet.getDate("DateSends"));
-        contactUs.setSubject_id(resultSet.getString("Subjects"));
+        contactUs.setSubjects(resultSet.getString("Subjects"));
         return contactUs;
     }
 }
