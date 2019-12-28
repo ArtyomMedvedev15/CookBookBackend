@@ -54,7 +54,7 @@
                             </div>
                             <ul class="mob__menu">
                                 <li><a href="/CookBook_war/">Home</a></li>
-                                <li><a href="/CookBook_war/">About us</a></li>
+                                <li><a href="/CookBook_war/about/aboutUs">About us</a></li>
                                 <li><a href="/CookBook_war/">Receipies</a></li>
                                 <li><a href="/CookBook_war/">4 Vegans</a></li>
                                 <li><a href="/CookBook_war/">Contact</a></li>

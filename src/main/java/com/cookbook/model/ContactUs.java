@@ -6,25 +6,25 @@ public class ContactUs  {
 
     private Long id;
     private String nameSends;
-    private String sonameSends;
+    private String textSends;
     private String email;
-    private Integer Subject_id;
+    private String subjects;
     private Date dateSends;
 
-    public ContactUs(Long id, String nameSends, String sonameSends, String email, Integer subject_id, Date dateSends) {
+    public ContactUs(Long id, String nameSends, String textSends, String email, String subjects, Date dateSends) {
         this.id = id;
         this.nameSends = nameSends;
-        this.sonameSends = sonameSends;
+        this.textSends = textSends;
         this.email = email;
-        Subject_id = subject_id;
+        this.subjects = subjects;
         this.dateSends = dateSends;
     }
 
-    public ContactUs(String nameSends, String sonameSends, String email, Integer subject_id, Date dateSends) {
+    public ContactUs(String nameSends, String textSends, String email, String subjects, Date dateSends) {
         this.nameSends = nameSends;
-        this.sonameSends = sonameSends;
+        this.textSends = textSends;
         this.email = email;
-        Subject_id = subject_id;
+        this.subjects = subjects;
         this.dateSends = dateSends;
     }
 
@@ -47,12 +47,12 @@ public class ContactUs  {
         this.nameSends = nameSends;
     }
 
-    public String getSonameSends() {
-        return sonameSends;
+    public String getTextSends() {
+        return textSends;
     }
 
-    public void setSonameSends(String sonameSends) {
-        this.sonameSends = sonameSends;
+    public void setTextSends(String textSends) {
+        this.textSends = textSends;
     }
 
     public String getEmail() {
@@ -63,12 +63,12 @@ public class ContactUs  {
         this.email = email;
     }
 
-    public Integer getSubject_id() {
-        return Subject_id;
+    public String getSubject_id() {
+        return subjects;
     }
 
-    public void setSubject_id(Integer subject_id) {
-        Subject_id = subject_id;
+    public void setSubject_id(String subjects) {
+        this.subjects = subjects;
     }
 
     public Date getDateSends() {
@@ -84,9 +84,9 @@ public class ContactUs  {
         return "ContactUs{" +
                 "id=" + id +
                 ", nameSends='" + nameSends + '\'' +
-                ", sonameSends='" + sonameSends + '\'' +
+                ", textSends='" + textSends + '\'' +
                 ", email='" + email + '\'' +
-                ", Subject_id=" + Subject_id +
+                ", Subject_id=" + subjects +
                 ", dateSends=" + dateSends +
                 '}';
     }
