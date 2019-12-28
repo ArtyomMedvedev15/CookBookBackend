@@ -23,9 +23,9 @@ public class ContactDaoImpl implements ContactDao {
         String sql = "INSERT INTO ContactUs(nameSends,sonameSends," +
                 "email,Subjects,DateSends) VALUES(?,?,?,?,?)";
         contactUs.setDateSends(new Date(new java.util.Date().getTime()));
-        return jdbcTemplate.update(sql,contactUs.getNameSends(),
+         return jdbcTemplate.update(sql,contactUs.getNameSends(),
                 contactUs.getTextSends(),contactUs.getEmail(),
-                contactUs.getSubject_id(),contactUs.getDateSends());
+                contactUs.getSubjects(),contactUs.getDateSends());
      }
 
     @Override
@@ -37,10 +37,11 @@ public class ContactDaoImpl implements ContactDao {
     @Override
     public int update(ContactUs contactUs) {
         String sql = "UPDATE ContactUs SET nameSends = ?," +
-                "sonameSends = ?,email = ?,Subjects=?,DateSends=?";
+                "sonameSends = ?,email = ?,Subjects=?,DateSends=? WHERE id = ? ";
 
         return jdbcTemplate.update(sql,contactUs.getNameSends(),
-                contactUs.getTextSends(),contactUs.getEmail(),contactUs.getSubject_id(),contactUs.getDateSends());
+                contactUs.getTextSends(),contactUs.getEmail(),contactUs.getSubjects(),
+                contactUs.getDateSends(),contactUs.getId());
     }
 
     @Override
