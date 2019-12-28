@@ -63,13 +63,6 @@ public class ContactUs  {
         this.email = email;
     }
 
-    public String getSubject_id() {
-        return subjects;
-    }
-
-    public void setSubject_id(String subjects) {
-        this.subjects = subjects;
-    }
 
     public Date getDateSends() {
         return dateSends;
@@ -77,6 +70,14 @@ public class ContactUs  {
 
     public void setDateSends(Date dateSends) {
         this.dateSends = dateSends;
+    }
+
+    public String getSubjects() {
+        return subjects;
+    }
+
+    public void setSubjects(String subjects) {
+        this.subjects = subjects;
     }
 
     @Override
