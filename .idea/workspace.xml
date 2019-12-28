@@ -7,8 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="854387ed-cdc8-4268-ac28-db0c4fb140cb" name="Default Changelist" comment="">
-<<<<<<< HEAD
-=======
       <change afterPath="$PROJECT_DIR$/src/main/java/com/cookbook/controller/ContactUsController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Recipies.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -25,7 +23,7 @@
       <change beforePath="$PROJECT_DIR$/target/CookBook-1.0-SNAPSHOT/WEB-INF/views/AboutUs.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/CookBook-1.0-SNAPSHOT/WEB-INF/views/AboutUs.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/CookBook-1.0-SNAPSHOT/WEB-INF/views/home.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/CookBook-1.0-SNAPSHOT/WEB-INF/views/home.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/cookbook/controller/AboutUsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cookbook/controller/AboutUsController.class" afterDir="false" />
->>>>>>> 6b2d604db00d4435d02faf1deafb5d0a94dac4f5
+      &gt;&gt;&gt;&gt;&gt;&gt;&gt; 6b2d604db00d4435d02faf1deafb5d0a94dac4f5
       <change beforePath="$PROJECT_DIR$/../EmployeeManager/.idea/codeStyles/Project.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../EmployeeManager/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../EmployeeManager/.idea/dataSources.local.xml" beforeDir="false" />
@@ -165,20 +163,18 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/model/ContactUs.java">
-<<<<<<< HEAD
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="865">
-              <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
-              <folding>
-                <element signature="e#1477#1478#0" expanded="true" />
-                <element signature="e#1508#1509#0" expanded="true" />
-                <element signature="e#1558#1559#0" expanded="true" />
-                <element signature="e#1598#1599#0" expanded="true" />
-                <element signature="e#1632#1633#0" expanded="true" />
-                <element signature="e#1664#1665#0" expanded="true" />
-                <element signature="e#1712#1713#0" expanded="true" />
-                <element signature="e#1754#1755#0" expanded="true" />
-=======
+          <provider selected="true" editor-type-id="text-editor" />
+          <state relative-caret-position="865" />
+          <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+          <folding />
+          <element signature="e#1477#1478#0" expanded="true" />
+          <element signature="e#1508#1509#0" expanded="true" />
+          <element signature="e#1558#1559#0" expanded="true" />
+          <element signature="e#1598#1599#0" expanded="true" />
+          <element signature="e#1632#1633#0" expanded="true" />
+          <element signature="e#1664#1665#0" expanded="true" />
+          <element signature="e#1712#1713#0" expanded="true" />
+          <element signature="e#1754#1755#0" expanded="true" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="810">
               <caret line="74" column="33" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
@@ -200,7 +196,6 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#656#657#0" expanded="true" />
                 <element signature="e#690#691#0" expanded="true" />
->>>>>>> 6b2d604db00d4435d02faf1deafb5d0a94dac4f5
               </folding>
             </state>
           </provider>
@@ -209,13 +204,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/ContactUs.ftl">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="-127">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-=======
+            <state relative-caret-position="-127" />
+            <caret line="8" selection-start-line="8" selection-end-line="8" />
             <state relative-caret-position="187">
               <caret line="118" column="27" lean-forward="true" selection-start-line="118" selection-start-column="27" selection-end-line="118" selection-end-column="27" />
->>>>>>> 6b2d604db00d4435d02faf1deafb5d0a94dac4f5
             </state>
           </provider>
         </entry>
@@ -242,11 +234,8 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/dao/mapper/ContactMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-<<<<<<< HEAD
               <caret line="20" selection-start-line="20" selection-end-line="20" />
-=======
               <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
->>>>>>> 6b2d604db00d4435d02faf1deafb5d0a94dac4f5
             </state>
           </provider>
         </entry>
@@ -267,11 +256,8 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/cookbook/test/ContactDaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-<<<<<<< HEAD
               <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-=======
               <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
->>>>>>> 6b2d604db00d4435d02faf1deafb5d0a94dac4f5
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -796,11 +782,8 @@
       <item itemvalue="JUnit.RecipeDaoTest.FindByTypeFood" />
       <item itemvalue="JUnit.CommentDaoTest.coutnComment" />
       <item itemvalue="JUnit.RecipeDaoTest.FindByGoal" />
-      <item itemvalue="Tomcat Server.tomcat" />
-<<<<<<< HEAD
-=======
       <item itemvalue="JUnit.ContactDaoTest.save" />
->>>>>>> 6b2d604db00d4435d02faf1deafb5d0a94dac4f5
+      <item itemvalue="Tomcat Server.tomcat" />
     </list>
     <recent_temporary>
       <list>
@@ -873,11 +856,8 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
     <option name="totallyTimeSpent" value="101778000" />
-=======
     <option name="totallyTimeSpent" value="104886000" />
->>>>>>> 6b2d604db00d4435d02faf1deafb5d0a94dac4f5
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1366" height="745" extended-state="0" />
@@ -896,11 +876,8 @@
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.5941807" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32924962" />
-<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.5084227" />
-=======
       <window_info anchor="bottom" id="Run" order="3" weight="0.5084227" />
->>>>>>> 6b2d604db00d4435d02faf1deafb5d0a94dac4f5
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39969373" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -1292,9 +1269,7 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/model/Subject.java" />
-=======
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/model/Subject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1312,7 +1287,6 @@
         </state>
       </provider>
     </entry>
->>>>>>> 6b2d604db00d4435d02faf1deafb5d0a94dac4f5
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="547">
@@ -1323,12 +1297,10 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/dao/mapper/ContactMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/dao/mapper/ContactMapper.java" />
+    <provider selected="true" editor-type-id="text-editor" />
+    <state relative-caret-position="240" />
+    <caret line="20" selection-start-line="20" selection-end-line="20" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/service/interfaces/ContactUsService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1340,19 +1312,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
           <caret line="44" column="23" selection-start-line="44" selection-end-line="45" />
->>>>>>> 6b2d604db00d4435d02faf1deafb5d0a94dac4f5
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/controller/AboutUsController.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="228">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-=======
+        <state relative-caret-position="228" />
+        <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
         <state relative-caret-position="180">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
->>>>>>> 6b2d604db00d4435d02faf1deafb5d0a94dac4f5
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1399,16 +1367,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cookbook/test/ContactDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="168">
-          <caret line="42" column="85" selection-start-line="42" selection-start-column="85" selection-end-line="42" selection-end-column="85" />
-=======
+        <state relative-caret-position="168" />
+        <caret line="42" column="85" selection-start-line="42" selection-start-column="85" selection-end-line="42" selection-end-column="85" />
         <state relative-caret-position="228">
           <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
->>>>>>> 6b2d604db00d4435d02faf1deafb5d0a94dac4f5
         </state>
       </provider>
     </entry>
