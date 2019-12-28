@@ -27,7 +27,7 @@ public class ContactDaoTest {
 
     @Test
     public void save(){
-        ContactUs contactUs = new ContactUs("Tisam","Brok","asd",1,new Date(new java.util.Date().getTime()));
+        ContactUs contactUs = new ContactUs("Tisam","Brok","asd","Test",new Date(new java.util.Date().getTime()));
         assertTrue(contactDao.save(contactUs) > 0);
     }
 
@@ -39,7 +39,7 @@ public class ContactDaoTest {
 
      @Test
     public void update(){
-         ContactUs contactUs = new ContactUs(1L,"Tim","Brok","TimBrok@asd.cs",1,new Date(new java.util.Date().getTime()));
+         ContactUs contactUs = new ContactUs(1L,"Tim","Brok","TimBrok@asd.cs","",new Date(new java.util.Date().getTime()));
          assertTrue(contactDao.update(contactUs) > 0);
      }
 

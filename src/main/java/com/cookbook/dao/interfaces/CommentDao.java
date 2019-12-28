@@ -17,4 +17,6 @@ public interface CommentDao {
 
     List<Comment> findByName(String name);
 
+    List<Integer> CountCommentByRecept(Long id);
+
 }

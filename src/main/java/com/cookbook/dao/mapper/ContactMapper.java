@@ -12,9 +12,9 @@ public class ContactMapper implements RowMapper<ContactUs> {
         ContactUs contactUs = new ContactUs();
         contactUs.setId(resultSet.getLong("id"));
         contactUs.setNameSends(resultSet.getString("nameSends"));
-        contactUs.setSonameSends(resultSet.getString("sonameSends"));
+        contactUs.setTextSends(resultSet.getString("sonameSends"));
         contactUs.setDateSends(resultSet.getDate("DateSends"));
-        contactUs.setSubject_id(resultSet.getInt("SubjectId"));
+        contactUs.setSubject_id(resultSet.getString("Subjects"));
         return contactUs;
     }
 }

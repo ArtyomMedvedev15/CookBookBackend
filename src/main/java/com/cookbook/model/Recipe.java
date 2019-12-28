@@ -1,5 +1,8 @@
 package com.cookbook.model;
 
+import com.cookbook.service.CommentServiceImpl;
+import com.cookbook.service.interfaces.CommentService;
+
 import java.sql.Date;
 
 public class Recipe {
@@ -12,6 +15,7 @@ public class Recipe {
     private Integer TypeGoal;
     private Date DateCreate;
     private Integer rating;
+    private Integer countComment;
 
     public Recipe(Long id, String nameRecipe, String describe, String imgPath, com.cookbook.model.TypeFood typeFood,
                   com.cookbook.model.TypeRecipe typeRecipe, com.cookbook.model.TypeGoal typeGoal, Date dateCreate, Integer rating) {
@@ -117,6 +121,14 @@ public class Recipe {
         TypeGoal = typeGoal;
     }
 
+    public Integer getCountComment() {
+        return countComment;
+    }
+
+    public void setCountComment(Integer countComment) {
+        this.countComment = countComment;
+    }
+
     @Override
     public String toString() {
         return "Recipe{" +
@@ -131,4 +143,5 @@ public class Recipe {
                 ", rating=" + rating +
                 '}';
     }
+
 }

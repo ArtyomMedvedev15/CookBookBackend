@@ -4,9 +4,13 @@ import com.cookbook.dao.interfaces.CommentDao;
 import com.cookbook.model.Comment;
 import com.cookbook.service.interfaces.CommentService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
+@Service
 public class CommentServiceImpl implements CommentService {
 
     @Autowired
@@ -41,4 +45,10 @@ public class CommentServiceImpl implements CommentService {
     public List<Comment> findByName(String name) {
         return commentDao.findByName(name);
     }
+
+    @Override
+    public List<Integer> CountCommentByRecept(Long id) {
+        return commentDao.CountCommentByRecept(id);
+    }
+  
 }

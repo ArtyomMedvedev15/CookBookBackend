@@ -6,6 +6,7 @@ import com.cookbook.model.ContactUs;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 import javax.sql.DataSource;
+import java.sql.Date;
 import java.util.List;
 
 public class ContactDaoImpl implements ContactDao {
@@ -20,9 +21,10 @@ public class ContactDaoImpl implements ContactDao {
     @Override
     public int save(ContactUs contactUs) {
         String sql = "INSERT INTO ContactUs(nameSends,sonameSends," +
-                "email,SubjectId,DateSends) VALUES(?,?,?,?,?)";
+                "email,Subjects,DateSends) VALUES(?,?,?,?,?)";
+        contactUs.setDateSends(new Date(new java.util.Date().getTime()));
         return jdbcTemplate.update(sql,contactUs.getNameSends(),
-                contactUs.getSonameSends(),contactUs.getEmail(),
+                contactUs.getTextSends(),contactUs.getEmail(),
                 contactUs.getSubject_id(),contactUs.getDateSends());
      }
 
@@ -35,10 +37,10 @@ public class ContactDaoImpl implements ContactDao {
     @Override
     public int update(ContactUs contactUs) {
         String sql = "UPDATE ContactUs SET nameSends = ?," +
-                "sonameSends = ?,email = ?,SubjectId=?,DateSends=?";
+                "sonameSends = ?,email = ?,Subjects=?,DateSends=?";
 
         return jdbcTemplate.update(sql,contactUs.getNameSends(),
-                contactUs.getSonameSends(),contactUs.getEmail(),contactUs.getSubject_id(),contactUs.getDateSends());
+                contactUs.getTextSends(),contactUs.getEmail(),contactUs.getSubject_id(),contactUs.getDateSends());
     }
 
     @Override
