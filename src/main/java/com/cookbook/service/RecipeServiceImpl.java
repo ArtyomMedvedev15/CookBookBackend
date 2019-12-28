@@ -2,20 +2,26 @@ package com.cookbook.service;
 
 import com.cookbook.dao.interfaces.RecipeDao;
 import com.cookbook.model.Recipe;
+import com.cookbook.model.TypeFood;
+import com.cookbook.model.TypeGoal;
 import com.cookbook.service.interfaces.RecipeService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.sql.Date;
 import java.util.List;
 
 @Service
 public class RecipeServiceImpl implements RecipeService {
 
-    private RecipeDao recipeDao;
+   @Autowired
+   public RecipeDao recipeDao;
 
 
     @Override
-    public int save(Recipe employee) {
-        return recipeDao.save(employee);
+    public int save(Recipe recipe) {
+        recipe.setDateCreate(new Date(new java.util.Date().getTime()));
+        return recipeDao.save(recipe);
     }
 
     @Override
@@ -24,8 +30,8 @@ public class RecipeServiceImpl implements RecipeService {
     }
 
     @Override
-    public int update(Recipe employee) {
-        return recipeDao.update(employee);
+    public int update(Recipe recipe) {
+        return recipeDao.update(recipe);
     }
 
     @Override
@@ -41,6 +47,16 @@ public class RecipeServiceImpl implements RecipeService {
     @Override
     public List<Recipe> findByName(String name) {
         return recipeDao.findByName(name);
+    }
+
+    @Override
+    public List<Recipe> findByGoal(TypeGoal typeGoal) {
+        return recipeDao.findByGoal(typeGoal);
+    }
+
+    @Override
+    public List<Recipe> findByTypeFood(TypeFood typeFood) {
+        return recipeDao.findByTypeFood(typeFood);
     }
 
 

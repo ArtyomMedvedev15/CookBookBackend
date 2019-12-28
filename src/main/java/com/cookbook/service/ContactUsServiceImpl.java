@@ -4,9 +4,11 @@ import com.cookbook.dao.interfaces.ContactDao;
 import com.cookbook.model.ContactUs;
 import com.cookbook.service.interfaces.ContactUsService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class ContactUsServiceImpl implements ContactUsService {
 
     @Autowired

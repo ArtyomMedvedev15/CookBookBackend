@@ -2,11 +2,14 @@ package com.cookbook.test;
 
 import com.cookbook.dao.implementation.CommentDaoImpl;
 import com.cookbook.model.Comment;
+import com.cookbook.model.Recipe;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
 import java.sql.Date;
+import java.util.List;
+
 import static org.junit.Assert.*;
 
 public class CommentDaoTest {
@@ -55,4 +58,8 @@ public class CommentDaoTest {
     public void findByName(){
         assertTrue(commentDao.findByName("T").size() > 0);
     }
+
+    @Test
+    public void coutnComment(){
+      }
 }

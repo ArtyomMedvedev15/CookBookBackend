@@ -1,0 +1,519 @@
+ @media (max-width: 1069px) {
+     .contact-form__inner input {
+         display: block !important;
+         width: 100% !important;
+     }
+     #Email {
+         margin-left: 0px !important;
+     }
+     .contacts-form {
+         margin-left: 15px !important;
+     }
+     .example_recipes__inner {
+         display: block !important;
+     }
+     .recipes__item {
+         width: 100% !important;
+     }
+     #exprc2 {
+         margin-right: 0px !important;
+     }
+     #exprc1 {
+         margin-left: 0px !important;
+     }
+     .best__recepies-item {
+         width: 50% !important;
+         margin-bottom: 50px;
+         padding-left: 30px;
+     }
+     .best__recepies-title a {
+         font-family: 'Raleway', sans-serif;
+         font-size: 35px !important;
+         font-weight: 500;
+         line-height: 30px !important;
+         padding-left: 15px;
+         padding-top: 10px;
+         color: #202020;
+         transition: all .7s;
+     }
+     .header__links {
+         margin-right: 10px;
+     }
+     .feedback__inner {
+         display: block !important;
+     }
+     .feedback__item-quote {
+         margin-bottom: 25px;
+         width: 100% !important;
+         height: 420px !important;
+     }
+     .feedback__item-author {
+         font-size: 25px !important;
+         padding-right: 40px;
+     }
+     .feedback__item-date {
+         font-size: 20px !important;
+     }
+     .feedback__item-form {
+         width: 100% !important;
+         border-top: 2px solid #2E7D32;
+         margin-bottom: 4px;
+         border-bottom: 2px solid #2E7D32;
+     }
+     .feedback__item-form-inner {
+         width: 100% !important;
+     }
+     .feedback__item-form-inner .default-btn {
+         padding-top: 20px !important;
+     }
+     .feedback__item-form-title {
+         margin-top: 20px;
+         font-size: 32px !important;
+         margin-bottom: 30px !important;
+         padding-left: 20px;
+     }
+     .feedback__item-deals img {
+         align-items: center;
+     }
+ }
+ 
+ @media (max-width: 1024px) and (max-height: 1366px) {
+     .find__inner {
+         margin-left: 30px;
+     }
+ }
+ 
+ @media (min-width: 800px) {
+     .toggle-button {
+         display: none!important;
+     }
+     .menu-wrap {
+         display: none;
+     }
+     .menu {
+         display: block;
+     }
+     .header__links {
+         margin-right: 10px;
+         padding: 0px 0px 2px 20px !important;
+     }
+ }
+ 
+ @media (max-width: 1024px) and (max-height: 799px) {
+     .find__inner {
+         margin-top: -30px;
+         margin-left: 30px;
+     }
+     .find__inner input {
+         margin-right: 30px;
+     }
+     .find__inner .default-btn {
+         margin-top: 2px;
+     }
+ }
+ 
+ @media (max-width: 799px) {
+     .toggle-button {
+         display: block!important;
+         margin-top: 15px;
+     }
+     .menu {
+         display: none;
+     }
+     .header__logo img {
+         margin-top: 20px;
+         height: 120px;
+         width: 280px;
+     }
+     .slider .slick-btn {
+         display: none !important;
+     }
+     .gluten__tittle {
+         padding-top: 179px !important;
+     }
+     .gluten__tittle {
+         font-size: 40px !important;
+         line-height: 35px !important;
+     }
+     .gluten__text {
+         font-size: 17px !important;
+     }
+     .gluten__inner .default-btn {
+         font-size: 17px !important;
+         margin-right: 6px;
+     }
+     .gluten__inner-receipies {
+         padding-left: 10px !important;
+     }
+     .find__inner {
+         margin-top: -30px;
+     }
+     .find__inner .default-btn {
+         position: relative;
+         right: 14px;
+         top: 10px;
+         margin-bottom: 10px;
+     }
+     .contact__describe-inner {
+         display: block !important;
+     }
+     .contact__describe-text {
+         text-align: left;
+         margin-left: -23px;
+         margin-bottom: 40px;
+     }
+     .contact__describe-info {
+         margin-left: 2px;
+     }
+     .contacts__item-form-title {
+         position: relative;
+         padding-top: 30px;
+         top: 20px;
+     }
+     .contacts__item-form {
+         width: 100% !important;
+         border-top: 2px solid #2E7D32;
+         margin-bottom: 4px;
+         border-bottom: 2px solid #2E7D32;
+     }
+     .contacts__item-form-inner {
+         width: 100% !important;
+     }
+ }
+ 
+ @media (max-width: 799px),
+ screen and (max-height: 376px) {
+     .toggle-button {
+         display: block!important;
+         margin-top: 28px;
+     }
+     .menu {
+         display: none;
+     }
+     .gluten__inner-receipies {
+         padding-left: 10px !important;
+     }
+     .header__links {
+         margin-right: 10px !important;
+     }
+     .item__inner {
+         padding-right: 8px;
+     }
+     .find__inner {
+         margin-left: 22px;
+     }
+     .find__inner .ms-choice>div.icon-caret {
+         top: 42%;
+     }
+ }
+ 
+ @media (max-width: 745px) {
+     .best__receipes-inner {
+         display: block !important;
+         padding-right: 70px;
+     }
+ }
+ 
+ @media (max-width: 570px) {
+     .slider {
+         margin-top: 25px;
+     }
+     .slider__item-content {
+         margin: 300px 13px !important;
+         width: 400px !important;
+     }
+     .slider__title {
+         font-size: 25px !important;
+     }
+     .slider-text {
+         font-size: 18px !important;
+     }
+     .counter__inner-items {
+         display: block !important;
+     }
+     .counter__item {
+         padding-top: 20px;
+     }
+     .count__receipt {
+         margin-top: 40px !important;
+     }
+     .slider__item-content {
+         margin: 300px 13px !important;
+         width: 350px !important;
+     }
+     .best__recepies-image img {
+         width: 350px !important;
+         height: 330px;
+         border-bottom: 3px solid #2E7D32
+     }
+     .best__receipes-inner {
+         display: block !important;
+         padding-right: 70px;
+     }
+     .gluten__tittle {
+         font-size: 40px !important;
+         line-height: 35px !important;
+     }
+     .gluten__text {
+         font-size: 17px !important;
+     }
+     .gluten__inner .default-btn {
+         font-size: 17px !important;
+     }
+     .gluten__inner-receipies {
+         padding-left: 10px !important;
+     }
+     .items {
+         margin-left: 15px;
+     }
+ }
+ 
+ @media (max-width: 504px) {
+     .header__links {
+         margin-right: 10px;
+         padding: 0px 0px 2px 20px !important;
+     }
+     .about__us-desc-title {
+         line-height: 28px !important;
+         margin-top: 5px !important;
+         padding-bottom: 10px !important;
+     }
+ }
+ 
+ @media (max-width: 414px) {
+     .find__inner {
+         margin-top: -55px;
+         margin-left: 110px;
+         margin-right: 0;
+     }
+     .find__inner input {
+         margin-bottom: 10px;
+     }
+     .find__inner .ms-choice {
+         margin-bottom: 10px;
+     }
+     .find__inner .default-btn {
+         position: relative;
+         right: 65px;
+     }
+ }
+ 
+ @media (max-width: 736px) and (max-height: 414px) {
+     .find__inner {
+         margin-top: 10px;
+         margin-left: 110px;
+         margin-right: 0;
+     }
+     .find__inner input {
+         margin-bottom: 10px;
+     }
+     .find__inner .ms-choice {
+         margin-bottom: 10px;
+     }
+     .find__inner .default-btn {
+         position: relative;
+         left: -154px;
+         top: 0;
+     }
+ }
+ 
+ @media (max-width: 823px) and (max-height: 411px) {
+     .find__inner {
+         position: relative;
+         margin-left: 30px;
+         margin-right: 60px;
+     }
+     .find__inner .default-btn {
+         position: relative;
+         top: 2px;
+         right: 170px;
+     }
+     .items {
+         position: relative;
+         left: 10px;
+         right: 1px;
+     }
+     .find__inner .default-btn {
+         position: relative;
+         left: -5px;
+     }
+ }
+ 
+ @media (max-width: 731px) and (max-height: 411px) {
+     .find__inner .default-btn {
+         position: relative;
+         left: -148px;
+     }
+ }
+ 
+ @media (max-width: 411px) {
+     .footer__top-images {
+         margin-left: 22.5% !important;
+     }
+     .find__inner {
+         margin-top: -55px;
+         margin-left: 100px;
+         margin-right: 0;
+     }
+     .find__inner input {
+         margin-bottom: 10px;
+     }
+     .find__inner .ms-choice {
+         margin-bottom: 10px;
+     }
+     .find__inner .default-btn {
+         position: relative;
+         right: 70px;
+     }
+ }
+ 
+ @media (max-width: 812px) and (max-height: 375px) {
+     .find__inner {
+         position: relative;
+         margin-left: 70px;
+         margin-right: 60px;
+     }
+     .find__inner input {
+         margin-right: 0;
+     }
+     .find__inner .default-btn {
+         position: relative;
+         top: 2px;
+         left: -210px;
+     }
+     .items {
+         position: relative;
+         left: 10px;
+         right: 1px;
+     }
+ }
+ 
+ @media (max-width: 667px) and (max-height: 375px) {
+     .find__inner {
+         margin-top: -35px;
+     }
+     .find__inner .default-btn {
+         position: relative;
+         left: -65px;
+     }
+ }
+ 
+ @media (max-width: 375px) {
+     .footer__top-images {
+         margin-left: 22.5% !important;
+     }
+     .find__inner {
+         margin-top: -55px;
+         margin-left: 80px;
+         margin-right: 0;
+     }
+     .find__inner input {
+         margin-bottom: 10px;
+     }
+     .find__inner .ms-choice {
+         margin-bottom: 10px;
+     }
+     .find__inner .default-btn {
+         position: relative;
+         right: 55px;
+     }
+ }
+ 
+ @media (max-width: 568px) and (max-height: 320px) {
+     .header__links {
+         margin-right: 10px;
+         padding: 0px 0px 2px 10px !important;
+     }
+     .footer__logo img {
+         margin-left: 10px !important;
+         margin-top: 15px;
+     }
+     .about__us-text {
+         font-size: 35px !important;
+     }
+     .find__inner {
+         margin-left: 110px;
+         margin-right: 0;
+     }
+     .find__inner input {
+         margin-bottom: 10px;
+     }
+     .find__inner .ms-choice {
+         margin-bottom: 10px;
+     }
+     .find__inner .default-btn {
+         position: relative;
+         left: 25px;
+     }
+     .items {
+         position: relative;
+         left: 1px;
+         right: 1px;
+     }
+ }
+ 
+ @media (max-width: 320px) {
+     .toggle-button {
+         display: block!important;
+         margin-top: 28px;
+         left: 15px;
+     }
+     .header__links {
+         margin-right: 10px;
+         padding: 0px 0px 2px 10px !important;
+     }
+     .slider {
+         margin-top: 25px;
+     }
+     .slider__item-content {
+         margin: 300px 1px !important;
+         width: 340px !important;
+     }
+     .recipes__title {
+         line-height: 28px !important;
+     }
+     .recipes__item .default-btn {
+         font-size: 15px;
+     }
+     .best__recepies-title a {
+         line-height: 30px !important;
+     }
+     .best__recepies-image img {
+         width: 280px !important;
+         height: 315px;
+         border-bottom: 3px solid #2E7D32
+     }
+     .gluten__inner .default-btn {
+         font-size: 13px !important;
+         margin-right: 6px;
+     }
+     .best__receipes-inner {
+         display: block !important;
+         padding-right: 70px !important;
+     }
+     .feedback__item-deals img {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         width: 320px;
+     }
+     .find__inner {
+         margin-right: 20px;
+         margin-left: 60px;
+     }
+     .find__inner input {
+         margin-bottom: 10px;
+     }
+     .find__inner .ms-choice {
+         margin-bottom: 10px;
+     }
+     .find__inner .default-btn {
+         position: relative;
+         right: 2px;
+     }
+     .page-numbers {
+         font-size: 12px !important;
+     }
+ }
+ 
+ r

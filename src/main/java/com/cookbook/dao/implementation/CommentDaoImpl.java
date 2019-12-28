@@ -4,8 +4,11 @@ import com.cookbook.dao.interfaces.CommentDao;
 import com.cookbook.dao.mapper.CommentMapper;
 import com.cookbook.model.Comment;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.core.RowMapper;
 
 import javax.sql.DataSource;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.List;
 
 public class CommentDaoImpl implements CommentDao {
@@ -57,4 +60,15 @@ public class CommentDaoImpl implements CommentDao {
         String sql = "SELECT * FROM CommentRecipes WHERE CommentRecipes.nameAuthor LIKE ?";
         return jdbcTemplate.query(sql,new CommentMapper(),patternForFound);
      }
+
+    @Override
+    public List<Integer> CountCommentByRecept(Long id) {
+        String sql = "select count(c.TextComment) from Recipes left join CommentRecipes as c on ? = c.RecipeId;";
+        return jdbcTemplate.query(sql, new RowMapper<Integer>() {
+            @Override
+            public Integer mapRow(ResultSet resultSet, int i) throws SQLException {
+                return resultSet.getInt("c.count(TextComment)");
+            }
+        }, id);
+    }
 }

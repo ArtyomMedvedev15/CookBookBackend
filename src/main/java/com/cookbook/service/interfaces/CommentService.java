@@ -18,4 +18,6 @@ public interface CommentService {
 
     List<Comment> findByName(String name);
 
+    List<Integer> CountCommentByRecept(Long id);
+
 }

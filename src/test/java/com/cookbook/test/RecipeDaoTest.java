@@ -14,11 +14,12 @@ import java.sql.Date;
 import java.util.List;
 
 public class RecipeDaoTest {
-    private DriverManagerDataSource dataSource;
+
     private RecipeDaoImpl recipeDao;
+
     @Before
     public void setUp(){
-        dataSource = new DriverManagerDataSource();
+        DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setUrl("jdbc:mysql://localhost:3306/CookBook");
         dataSource.setUsername("root");
         dataSource.setPassword("123456");
@@ -26,39 +27,58 @@ public class RecipeDaoTest {
         recipeDao = new RecipeDaoImpl(dataSource);
     }
 
-    @org.junit.Test
+    @Test
     public void save(){
-        Recipe recipe = new Recipe("as","s","sd",TypeFood.valueOf("Meat"), TypeRecipe.valueOf("Lunch"), TypeGoal.valueOf("Full"),new Date( new java.util.Date().getTime()),2);
+        Recipe recipe = new Recipe("Flourless macaroons",
+                "There isn't a gram of flour in this cookie, which mean it's suitable for a diet.",
+                  "img/sr1.jpg",TypeFood.valueOf("GlutenFree"), TypeRecipe.valueOf("Breakfast"), TypeGoal.valueOf("Full"),new Date( new java.util.Date().getTime()),5);
+
         assertTrue(recipeDao.save(recipe) > 0);
     }
 
-    @org.junit.Test
+    @Test
     public void getId(){
         Recipe recipe = recipeDao.getById(1);
         assertNotNull(recipe);
     }
 
-    @org.junit.Test
+    @Test
     public void findAll(){
         List<Recipe>recipes = recipeDao.findAll();
         assertTrue(recipes.size() > 0);
-    }
+     }
 
-    @org.junit.Test
+    @Test
     public void DeleteById(){
         assertTrue(recipeDao.deleteById(2) > 0);
     }
 
-    @org.junit.Test
+    @Test
     public void FindByName(){
-        List<Recipe>res = recipeDao.findByName("s");
+        List<Recipe>res = recipeDao.findByName("Pancakes with ice cream, almond and strawberry");
         assertTrue(res.size() > 0);
      }
 
      @Test
     public void update(){
-         Recipe recipe = new Recipe(1L,"asds","s","sd",TypeFood.valueOf("Meat"), TypeRecipe.valueOf("Lunch"), TypeGoal.valueOf("Full"),new Date( new java.util.Date().getTime()),2);
-
-         assertTrue(recipeDao.update(recipe) > 0);
+         Recipe recipe = new Recipe(8L,"Homemade burger\n","Homemade burger can " +
+                 "never be compared to the one " +
+                 "bought from the nearest fast food eatery.\n",
+                  "img/r2.jpg",TypeFood.valueOf("Meat"), TypeRecipe.valueOf("Burgers"), TypeGoal.valueOf("BestRecipe"),new Date( new java.util.Date().getTime()),5);
+          assertTrue(recipeDao.update(recipe) > 0);
      }
+
+    @Test
+    public void FindByGoal(){
+        List<Recipe>resFindByGoal = recipeDao.findByGoal(TypeGoal.Full);
+        assertTrue(resFindByGoal.size() > 0);
+      }
+
+    @Test
+    public void FindByTypeFood(){
+        List<Recipe>findTypeFood = recipeDao.findByTypeFood(TypeFood.GlutenFree);
+        assertTrue(findTypeFood.size() > 0);
+        System.out.println(findTypeFood.get(4).getCountComment());
+    }
+
 }
