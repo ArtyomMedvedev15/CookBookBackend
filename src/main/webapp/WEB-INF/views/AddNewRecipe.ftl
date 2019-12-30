@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="../css/style.css"/>
+
 </head>
-<body>
+<body class="adminPage">
 <section class="card-create">
     <div class="container">
         <div class="card">
@@ -40,8 +42,8 @@
                     </select>
 
                     <div class="card-button">
-                        <a class="default_btn" href="/CookBook_war/admin/listRecipes">Back</a>
-                        <button type="submit" class="default_btn">Add</button>
+                        <a class="default-btn" href="/CookBook_war/admin/listRecipes">Back</a>
+                        <button type="submit" class="default-btn">Add</button>
                     </div>
                 </form>
             </div>

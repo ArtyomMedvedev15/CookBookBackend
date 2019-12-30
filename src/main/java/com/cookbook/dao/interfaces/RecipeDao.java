@@ -24,6 +24,10 @@ public interface RecipeDao {
 
     List<Recipe> findByTypeFood(TypeFood typeFood);
 
+    List<Recipe> findByTypeRecipe(TypeRecipe typeRecipe);
+
+    List<Recipe> findByNameTypeRecipe(String name,TypeRecipe typeRecipe);
+
     List<Recipe> findByFoodAndRecipe(TypeFood typeFood, TypeRecipe typeRecipe);
 
 

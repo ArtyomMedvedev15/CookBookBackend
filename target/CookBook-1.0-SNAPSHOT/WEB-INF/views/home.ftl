@@ -55,8 +55,8 @@
                             <ul class="mob__menu">
                                 <li><a href="/CookBook_war/">Home</a></li>
                                 <li><a href="/CookBook_war/about/aboutUs">About us</a></li>
-                                <li><a href="/CookBook_war/">Receipies</a></li>
-                                <li><a href="/CookBook_war/">4 Vegans</a></li>
+                                <li><a href="/CookBook_war/recipes/recipies">Receipies</a></li>
+                                <li><a href="/CookBook_war/recipes/vegans">4 Vegans</a></li>
                                 <li><a href="/CookBook_war/contact/contactUs">Contact</a></li>
                             </ul>
                         </div>
@@ -65,8 +65,8 @@
                         <ul>
                             <li><a href="/CookBook_war/">Home</a></li>
                             <li><a href="/CookBook_war/about/aboutUs">About us</a></li>
-                            <li><a href="/CookBook_war/">Receipies</a></li>
-                            <li><a href="/CookBook_war/">4 Vegans</a></li>
+                            <li><a href="/CookBook_war/recipes/recipies">Receipies</a></li>
+                            <li><a href="/CookBook_war/recipes/vegans">4 Vegans</a></li>
                             <li><a href="/CookBook_war/contact/contactUs">Contact</a></li>
                         </ul>
                     </nav>

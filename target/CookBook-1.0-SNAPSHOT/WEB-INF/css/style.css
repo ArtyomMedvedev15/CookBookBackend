@@ -314,6 +314,8 @@ body {
     position: relative;
     z-index: 2;
     outline: none;
+    transition: all .3s;
+
 }
 
 .slider {
@@ -371,7 +373,9 @@ body {
 .gluten__inner .default-btn:hover,
 .feedback__item-form-inner .default-btn:hover,
 .contact-form__inner button:hover,
-.contacts__item-form-inner .default-btn:hover {
+.contacts__item-form-inner .default-btn:hover,
+.listSection .default-btn:hover,
+.card-button .default-btn:hover{
     background-color: #2E7D32;
 }
 
@@ -1135,7 +1139,7 @@ body {
 
 .find__inner input {
     position: relative;
-    top: 1px;
+    top: 20px;
     outline: none;
     height: 60px;
     width: 218px;
@@ -1162,6 +1166,7 @@ body {
 .items {
     position: relative;
     right: 13px;
+    top: 20px;
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
@@ -1171,12 +1176,12 @@ body {
 
 .item__inner {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 265px;
-    /* Ограничение ширины */
+    width: 250px;
     margin: auto;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     margin-top: 15px;
+    border-radius: 3px;
 }
 
 .item__image img {
@@ -1390,9 +1395,10 @@ body {
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
 }
-body{
-    background-image: url(../img/bg.jpg);
-}
+.adminPage{
+    background-image: url(../img/bgAdmin.jpg);
+  }
+
 .listSection{
     margin-top: 100px;
 }
@@ -1413,23 +1419,354 @@ body{
     border-right: 3px solid #fff;
     color: #fff;
 }
-
-table, td, th {
+.listSection{
+    margin-right: 50px;
+ }
+.listSection table, td, th {
     border: 1px solid #212121;
     text-align: left;
     background: #fff;
-}
+ }
 
-table {
+.listSection table {
     border-collapse: collapse;
     width: 100%;
 }
 
-th, td {
+.listSection th, td {
     padding: 15px;
 }
 
-tr th{
+.listSection tr th{
     background-color: #424242;
     color:#fff;
+}
+
+
+.selectdiv {
+    position: relative;
+    float: left;
+    min-width: 200px;
+    margin-right: 15px;
+ }
+
+select::-ms-expand {
+    display: none;
+}
+
+.selectdiv:after {
+    content: '<>';
+    font: 17px "Consolas", monospace;
+    color: #333;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    right: 11px;
+    margin-top: 20px;
+    top: 18px;
+    padding: 0 0 2px;
+    border-bottom: 1px solid #999;
+    position: absolute;
+    pointer-events: none;
+}
+
+.selectdiv select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: block;
+    width: 100%;
+    max-width: 320px;
+    height: 50px;
+    float: right;
+    margin: 5px 0px;
+    padding: 0px 24px;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #333;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cccccc;
+    -ms-word-break: normal;
+    word-break: normal;
+}
+
+#result{
+    font-size: 20px;
+    text-align: center;
+    color: #202020;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+
+.recept__img {
+    max-width: 1100px;
+    max-height: 300px;
+    margin: auto;
+    margin-bottom: 150px;
+ }
+
+.recept-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recept-date {
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    color: #929191;
+    line-height: 31px;
+    font-weight: 500;
+}
+
+.recept-name {
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    color: #202020;
+    line-height: 31px;
+    font-weight: 700;
+}
+
+.recept-complexlty {
+    width: 150px;
+    height: 60px;
+    background-color: #1ab63c;
+    border-left: 4px solid #2E7D32;
+    color: #fff;
+    padding-left: 40px;
+    padding-top: 15px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.recept-times {
+    border-left: 3px solid#2E7D32;
+    padding-left: 10px;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    color: #202020;
+    line-height: 31px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.recept-describe {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.recept-stepbystep li {
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    color: #202020;
+    line-height: 31px;
+    font-weight: 600;
+}
+
+.recept-stepbystep p {
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    color: #929191;
+    line-height: 31px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    margin-left: 10px;
+}
+
+.recept-ingredients {
+    margin-right: 10px;
+    margin-top: -20px;
+}
+
+.logoIngr {
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    color: #202020;
+    line-height: 31px;
+    font-weight: 700;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    position: relative;
+    right: 100px;
+}
+
+.ingredints-check {
+    display: flex;
+    flex-flow: column wrap;
+}
+.recept-rating{
+    margin-bottom: 15px;
+}
+
+
+
+.containers {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.containers input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+.containers:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.containers input:checked ~ .checkmark {
+    background-color: rgb(64, 175, 69);
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.containers input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.containers .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+#recept .default-btn{
+    float: left;
+    transition: .3s all;
+}
+#recept:hover{
+    background: #2E7D32;
+    color:#fff;
+    transition: .3s all;
+
+}
+#cardName{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.listSection .default-btn{
+    color: #fff;
+}
+.listSection td .default-btn{
+    color: #202020;
+}
+
+.listSection td .default-btn:hover{
+    color:#fff;
+}
+
+#buttonAdminBack{
+    float:right;
+    margin-right: 10px;
+}
+#buttonAdminAdd{
+    float: left;
+    margin-left: 10px;
+}
+
+.card{
+    width: 400px;
+    height: 500px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 15px;
+    background: rgba(13, 13, 13, 0.5);
+}
+.card-text-logo p{
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 8px;
+}
+
+.card-inner input{
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    transition: .1s all;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+
+}
+
+.card-inner input:focus{
+    border-left: 3px solid #43A047;
+}
+#genLog, #depLog{
+    color: #fff;
+    font-size: 19px;
+    padding-left: 25px;
+}
+.card-inner select{
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 350px;
+    margin-bottom: 10px;
+}
+.card-button{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-button-edit button,.card-button button{
+    background: transparent;
+}
+.card-button .default-btn{
+    color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    transition: .3s all;
+}
+
+.card-button-edit{
+    margin: 0;
+}
+.card-button-edit .default-btn{
+    margin-top: 15px;
+    color:#fff;
+    margin-left: 10px;
 }

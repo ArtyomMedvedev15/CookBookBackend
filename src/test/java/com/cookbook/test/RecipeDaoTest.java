@@ -64,7 +64,8 @@ public class RecipeDaoTest {
          Recipe recipe = new Recipe(8L,"Homemade burger\n","Homemade burger can " +
                  "never be compared to the one " +
                  "bought from the nearest fast food eatery.\n",
-                  "img/r2.jpg",TypeFood.valueOf("Meat"), TypeRecipe.valueOf("Burgers"), TypeGoal.valueOf("BestRecipe"),new Date( new java.util.Date().getTime()),5);
+                  "img/r2.jpg",TypeFood.valueOf("Meat"), TypeRecipe.valueOf("Burgers"),
+                 TypeGoal.valueOf("BestRecipe"),new Date( new java.util.Date().getTime()),5);
           assertTrue(recipeDao.update(recipe) > 0);
      }
 
@@ -80,5 +81,15 @@ public class RecipeDaoTest {
         assertTrue(findTypeFood.size() > 0);
         System.out.println(findTypeFood.get(4).getCountComment());
     }
+
+    @Test
+    public void FindByTypeFoodAndTypeRecipe(){
+        assertTrue(recipeDao.findByFoodAndRecipe(TypeFood.GlutenFree,TypeRecipe.Breakfast).size() > 0);
+    }
+
+    @Test
+    public void FindByTypeRecipe(){
+        assertTrue(recipeDao.findByTypeRecipe(TypeRecipe.Breakfast).size() > 0);
+     }
 
 }
