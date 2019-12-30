@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="../css/style.css"/>
 </head>
-<body>
+<body class="adminPage">
     <section class="listSection">
-        <a href="/CookBook_war/admin/addNewRecipe">Add</a>
+
+        <a id="buttonAdminAdd" class="default-btn" href="/CookBook_war/admin/addNewRecipe">Add</a>
+        <a id="buttonAdminBack" class="default-btn" href="/CookBook_war/">Back to site</a>
+
         <div class="container">
             <div class="text-section">
                 <p>List of recipes</p>
@@ -42,8 +45,8 @@
                             <td>${res.getTypeFood()}</td>
                             <td>${res.getTypeRecipe()}</td>
                             <td>${res.getTypeGoal()}</td>
-                            <td><a class="default_btn" href="/CookBook_war/admin/Edit/${res.id}">Edit</a></td>
-                            <td><a class="default_btn" href="/CookBook_war/admin/delete/${res.id}">Delete</a></td>
+                            <td><a class="default-btn" href="/CookBook_war/admin/Edit/${res.id}">Edit</a></td>
+                            <td><a class="default-btn" href="/CookBook_war/admin/delete/${res.id}">Delete</a></td>
                         </tr>
                     </#list>
                 </table>

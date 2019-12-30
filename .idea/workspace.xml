@@ -7,23 +7,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="854387ed-cdc8-4268-ac28-db0c4fb140cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cookbook/controller/ContactUsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Recipies.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cookbook/controller/RecipeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/bgAdmin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/GetOneRecept.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Vegan4.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cookbook/controller/AboutUsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cookbook/controller/AboutUsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cookbook/dao/implementation/ContactDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cookbook/dao/implementation/ContactDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cookbook/dao/mapper/ContactMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cookbook/dao/mapper/ContactMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cookbook/model/ContactUs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cookbook/model/ContactUs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cookbook/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cookbook/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cookbook/dao/implementation/RecipeDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cookbook/dao/implementation/RecipeDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cookbook/dao/interfaces/RecipeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cookbook/dao/interfaces/RecipeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cookbook/model/TypeRecipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cookbook/model/TypeRecipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cookbook/service/RecipeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cookbook/service/RecipeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cookbook/service/interfaces/RecipeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cookbook/service/interfaces/RecipeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/AboutUs.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/AboutUs.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/AddNewRecipe.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/AddNewRecipe.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/ContactUs.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/ContactUs.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Edit.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Edit.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/ListRecipes.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/ListRecipes.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Recipies.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Recipies.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cookbook/test/RecipeDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cookbook/test/RecipeDaoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/CookBook-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/CookBook-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CookBook-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/CookBook-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CookBook-1.0-SNAPSHOT/WEB-INF/classes/com/cookbook/controller/AboutUsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CookBook-1.0-SNAPSHOT/WEB-INF/classes/com/cookbook/controller/AboutUsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CookBook-1.0-SNAPSHOT/WEB-INF/classes/com/cookbook/dao/implementation/RecipeDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CookBook-1.0-SNAPSHOT/WEB-INF/classes/com/cookbook/dao/implementation/RecipeDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CookBook-1.0-SNAPSHOT/WEB-INF/classes/com/cookbook/dao/interfaces/RecipeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CookBook-1.0-SNAPSHOT/WEB-INF/classes/com/cookbook/dao/interfaces/RecipeDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CookBook-1.0-SNAPSHOT/WEB-INF/classes/com/cookbook/model/TypeRecipe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CookBook-1.0-SNAPSHOT/WEB-INF/classes/com/cookbook/model/TypeRecipe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CookBook-1.0-SNAPSHOT/WEB-INF/classes/com/cookbook/service/RecipeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CookBook-1.0-SNAPSHOT/WEB-INF/classes/com/cookbook/service/RecipeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CookBook-1.0-SNAPSHOT/WEB-INF/classes/com/cookbook/service/interfaces/RecipeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CookBook-1.0-SNAPSHOT/WEB-INF/classes/com/cookbook/service/interfaces/RecipeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CookBook-1.0-SNAPSHOT/WEB-INF/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/CookBook-1.0-SNAPSHOT/WEB-INF/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CookBook-1.0-SNAPSHOT/WEB-INF/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/CookBook-1.0-SNAPSHOT/WEB-INF/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/CookBook-1.0-SNAPSHOT/WEB-INF/views/AboutUs.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/CookBook-1.0-SNAPSHOT/WEB-INF/views/AboutUs.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CookBook-1.0-SNAPSHOT/WEB-INF/views/AddNewRecipe.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/CookBook-1.0-SNAPSHOT/WEB-INF/views/AddNewRecipe.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CookBook-1.0-SNAPSHOT/WEB-INF/views/ContactUs.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/CookBook-1.0-SNAPSHOT/WEB-INF/views/ContactUs.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CookBook-1.0-SNAPSHOT/WEB-INF/views/Edit.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/CookBook-1.0-SNAPSHOT/WEB-INF/views/Edit.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CookBook-1.0-SNAPSHOT/WEB-INF/views/ListRecipes.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/CookBook-1.0-SNAPSHOT/WEB-INF/views/ListRecipes.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CookBook-1.0-SNAPSHOT/WEB-INF/views/Recipies.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/CookBook-1.0-SNAPSHOT/WEB-INF/views/Recipies.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/CookBook-1.0-SNAPSHOT/WEB-INF/views/home.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/CookBook-1.0-SNAPSHOT/WEB-INF/views/home.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cookbook/controller/AboutUsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cookbook/controller/AboutUsController.class" afterDir="false" />
-      &gt;&gt;&gt;&gt;&gt;&gt;&gt; 6b2d604db00d4435d02faf1deafb5d0a94dac4f5
+      <change beforePath="$PROJECT_DIR$/target/CookBook-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/CookBook-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cookbook/dao/implementation/RecipeDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cookbook/dao/implementation/RecipeDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cookbook/dao/interfaces/RecipeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cookbook/dao/interfaces/RecipeDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cookbook/model/TypeRecipe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cookbook/model/TypeRecipe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cookbook/service/RecipeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cookbook/service/RecipeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cookbook/service/interfaces/RecipeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cookbook/service/interfaces/RecipeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cookbook/test/RecipeDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cookbook/test/RecipeDaoTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EmployeeManager/.idea/codeStyles/Project.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../EmployeeManager/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../EmployeeManager/.idea/dataSources.local.xml" beforeDir="false" />
@@ -149,118 +176,70 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="CookBook: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="CookBook@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="CookBook: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="ContactUs: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="377" column="31" selection-start-line="377" selection-start-column="31" selection-end-line="377" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/service/RecipeServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="438">
+              <caret line="88" column="47" selection-start-line="88" selection-start-column="47" selection-end-line="88" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#save#0;class#RecipeServiceImpl#0" />
+                <element signature="method#findByNameTypeRecipe#0;class#RecipeServiceImpl#0" />
+                <element signature="method#findByFoodAndRecipe#0;class#RecipeServiceImpl#0" />
+                <element signature="e#2025#2026#0" expanded="true" />
+                <element signature="e#2081#2082#0" expanded="true" />
+                <element signature="e#2141#2142#0" expanded="true" />
+                <element signature="e#2187#2188#0" expanded="true" />
+                <element signature="e#2257#2258#0" expanded="true" />
+                <element signature="e#2312#2313#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/service/interfaces/RecipeService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/controller/AdminController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="55" column="118" selection-start-line="55" selection-start-column="118" selection-end-line="55" selection-end-column="118" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/model/ContactUs.java">
-          <provider selected="true" editor-type-id="text-editor" />
-          <state relative-caret-position="865" />
-          <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
-          <folding />
-          <element signature="e#1477#1478#0" expanded="true" />
-          <element signature="e#1508#1509#0" expanded="true" />
-          <element signature="e#1558#1559#0" expanded="true" />
-          <element signature="e#1598#1599#0" expanded="true" />
-          <element signature="e#1632#1633#0" expanded="true" />
-          <element signature="e#1664#1665#0" expanded="true" />
-          <element signature="e#1712#1713#0" expanded="true" />
-          <element signature="e#1754#1755#0" expanded="true" />
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="74" column="33" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
-              <folding>
-                <element signature="e#1668#1669#0" expanded="true" />
-                <element signature="e#1716#1717#0" expanded="true" />
-                <element signature="e#1756#1757#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/controller/ContactUsController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="40" column="41" lean-forward="true" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#656#657#0" expanded="true" />
-                <element signature="e#690#691#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/ContactUs.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-127" />
-            <caret line="8" selection-start-line="8" selection-end-line="8" />
-            <state relative-caret-position="187">
-              <caret line="118" column="27" lean-forward="true" selection-start-line="118" selection-start-column="27" selection-end-line="118" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/dao/interfaces/ContactDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/dao/implementation/ContactDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="42" column="85" selection-start-line="42" selection-start-column="85" selection-end-line="42" selection-end-column="85" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/dao/mapper/ContactMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/dao/implementation/CommentDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/cookbook/test/ContactDaoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-              <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1200">
+              <caret line="80" column="14" lean-forward="true" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -283,6 +262,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>men</find>
+      <find>items</find>
+      <find>item</find>
+      <find>default</find>
+      <find>tra</find>
+      <find>card</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -302,24 +286,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cookbook/config/WebConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/css/fonts.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cookbook/model/Subscribe_on_letter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cookbook/dao/mapper/SubscribeMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cookbook/dao/interfaces/Subscribe_on_letterDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cookbook/dao/implementation/SubscribeDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cookbook/service/interfaces/SubscribeService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cookbook/service/SubscribeService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cookbook/model/TypeFood.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/AddNewRecipe.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/ListRecipes.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/cookbook/service/ContactUsServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cookbook/service/SubscribeServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cookbook/test/RecipeSerivceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cookbook/config/SpringConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cookbook/model/TypeRecipe.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cookbook/service/interfaces/RecipeService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cookbook/service/interfaces/CommentService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cookbook/dao/interfaces/CommentDao.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cookbook/test/CommentDaoTest.java" />
@@ -330,29 +302,41 @@
         <option value="$PROJECT_DIR$/src/main/java/com/cookbook/dao/mapper/RecipeMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cookbook/controller/HomeController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Edit.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cookbook/service/RecipeServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/AddNewRecipe.ftl" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cookbook/controller/AdminController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Edit.ftl" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/ListRecipes.ftl" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/css/style.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cookbook/dao/interfaces/RecipeDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cookbook/dao/implementation/RecipeDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cookbook/test/RecipeDaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/AboutUs.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/js/main.js" />
         <option value="$PROJECT_DIR$/src/test/java/com/cookbook/test/ContactDaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/ContactUs.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/cookbook/controller/AboutUsController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/AboutUs.ftl" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.ftl" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Recipies.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/cookbook/model/ContactUs.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cookbook/dao/implementation/ContactDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cookbook/dao/mapper/ContactMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cookbook/controller/ContactUsController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/ContactUs.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Vegan4.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cookbook/model/TypeRecipe.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cookbook/test/RecipeDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cookbook/dao/interfaces/RecipeDao.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error404.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error404.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cookbook/controller/ErrorController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/GetOneRecept.html" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/82c2c93f-549d-47f4-9473-93d1b1fc3b5e/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cookbook/dao/implementation/RecipeDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cookbook/controller/RecipeController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/js/main.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/AddNewRecipe.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/css/style.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cookbook/service/interfaces/RecipeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cookbook/service/RecipeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cookbook/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Edit.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/ListRecipes.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/AboutUs.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/ContactUs.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/GetOneRecept.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Recipies.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Vegan4.ftl" />
       </list>
     </option>
   </component>
@@ -432,7 +416,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cookbook" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CookBook" type="b2602c69:ProjectViewProjectNode" />
@@ -441,37 +425,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cookbook" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="implementation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CookBook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CBB" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cookbook" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="interfaces" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CookBook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CBB" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cookbook" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CookBook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CBB" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cookbook" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CookBook" type="b2602c69:ProjectViewProjectNode" />
@@ -487,6 +442,24 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CookBook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CBB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CookBook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CBB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CookBook" type="b2602c69:ProjectViewProjectNode" />
@@ -522,6 +495,17 @@
               <item name="CookBook" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
+            <path>
+              <item name="CookBook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+            <path>
+              <item name="CookBook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="82c2c93f-549d-47f4-9473-93d1b1fc3b5e" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -533,7 +517,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577567569603" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577698822141" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect" value="MySQL&#10;SQL92" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -553,22 +537,22 @@
       <recent name="com.employee.service" />
       <recent name="com.employee.dao" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/img" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/css" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/js" />
+      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/img" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/css" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/css/img" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/js" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/img" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/css" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/js" />
-      <recent name="$PROJECT_DIR$/src/main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -592,23 +576,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CommentDaoTest.coutnComment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CookBook" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cookbook.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cookbook.test" />
-      <option name="MAIN_CLASS_NAME" value="com.cookbook.test.CommentDaoTest" />
-      <option name="METHOD_NAME" value="coutnComment" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -664,7 +631,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecipeDaoTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RecipeDaoTest.FindByTypeFoodAndTypeRecipe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CookBook" />
       <extension name="coverage">
         <pattern>
@@ -674,7 +641,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.cookbook.test" />
       <option name="MAIN_CLASS_NAME" value="com.cookbook.test.RecipeDaoTest" />
-      <option name="METHOD_NAME" value="findAll" />
+      <option name="METHOD_NAME" value="FindByTypeFoodAndTypeRecipe" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecipeDaoTest.FindByTypeRecipe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CookBook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cookbook.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cookbook.test" />
+      <option name="MAIN_CLASS_NAME" value="com.cookbook.test.RecipeDaoTest" />
+      <option name="METHOD_NAME" value="FindByTypeRecipe" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -778,20 +762,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.RecipeDaoTest.findAll" />
       <item itemvalue="JUnit.RecipeDaoTest.FindByTypeFood" />
-      <item itemvalue="JUnit.CommentDaoTest.coutnComment" />
       <item itemvalue="JUnit.RecipeDaoTest.FindByGoal" />
       <item itemvalue="JUnit.ContactDaoTest.save" />
+      <item itemvalue="JUnit.RecipeDaoTest.FindByTypeFoodAndTypeRecipe" />
+      <item itemvalue="JUnit.RecipeDaoTest.FindByTypeRecipe" />
       <item itemvalue="Tomcat Server.tomcat" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RecipeDaoTest.FindByTypeRecipe" />
+        <item itemvalue="JUnit.RecipeDaoTest.FindByTypeFoodAndTypeRecipe" />
         <item itemvalue="JUnit.ContactDaoTest.save" />
         <item itemvalue="JUnit.RecipeDaoTest.FindByTypeFood" />
         <item itemvalue="JUnit.RecipeDaoTest.FindByGoal" />
-        <item itemvalue="JUnit.RecipeDaoTest.findAll" />
-        <item itemvalue="JUnit.CommentDaoTest.coutnComment" />
       </list>
     </recent_temporary>
   </component>
@@ -820,22 +804,11 @@
       <workItem from="1577518691967" duration="56000" />
       <workItem from="1577520638756" duration="177000" />
       <workItem from="1577540899594" duration="16611000" />
+      <workItem from="1577687048220" duration="8753000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RecipeDaoTest_findAll - 2019.12.28 at 18h 26m 09s.xml">
-      <configuration name="RecipeDaoTest.findAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RecipeDaoTest_findAll - 2019.12.28 at 18h 26m 33s.xml">
-      <configuration name="RecipeDaoTest.findAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RecipeDaoTest_findAll - 2019.12.28 at 18h 26m 50s.xml">
-      <configuration name="RecipeDaoTest.findAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RecipeDaoTest_FindByGoal - 2019.12.28 at 18h 30m 15s.xml">
-      <configuration name="RecipeDaoTest.FindByGoal" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RecipeDaoTest_FindByGoal - 2019.12.28 at 21h 27m 24s.xml">
       <configuration name="RecipeDaoTest.FindByGoal" configurationId="JUnit" />
     </history-entry>
@@ -854,15 +827,26 @@
     <history-entry file="ContactDaoTest_save - 2019.12.28 at 23h 57m 28s.xml">
       <configuration name="ContactDaoTest.save" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RecipeDaoTest_FindByTypeFoodAndTypeRecipe - 2019.12.29 at 21h 56m 13s.xml">
+      <configuration name="RecipeDaoTest.FindByTypeFoodAndTypeRecipe" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RecipeDaoTest_FindByTypeFoodAndTypeRecipe - 2019.12.29 at 21h 57m 18s.xml">
+      <configuration name="RecipeDaoTest.FindByTypeFoodAndTypeRecipe" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RecipeDaoTest_FindByTypeRecipe - 2019.12.29 at 22h 40m 28s.xml">
+      <configuration name="RecipeDaoTest.FindByTypeRecipe" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RecipeDaoTest_FindByTypeRecipe - 2019.12.29 at 22h 40m 47s.xml">
+      <configuration name="RecipeDaoTest.FindByTypeRecipe" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101778000" />
-    <option name="totallyTimeSpent" value="104886000" />
+    <option name="totallyTimeSpent" value="129364000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1366" height="745" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28700906" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2907855" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -876,7 +860,6 @@
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.5941807" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32924962" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.5084227" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.5084227" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39969373" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
@@ -900,7 +883,7 @@
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.17824773" />
+      <window_info anchor="right" id="Database" order="6" weight="0.17824773" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
@@ -955,84 +938,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/css/media.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img/bg3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/model/TypeGoal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/model/Subscribe_on_letter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="716">
-          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
-          <folding>
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
-            <element signature="e#772#773#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/config/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="46" column="43" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/service/interfaces/SubscribeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/dao/mapper/SubscribeMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/config/WebAppInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/dao/interfaces/Subscribe_on_letterDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1080,18 +985,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="68" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/config/SpringConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="53" column="27" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1886#1887#0" expanded="true" />
-            <element signature="e#1934#1935#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1152,72 +1045,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/service/interfaces/RecipeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/service/RecipeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#875#876#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/model/TypeRecipe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/AddNewRecipe.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-223">
-          <caret line="18" column="54" lean-forward="true" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Edit.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="16" column="92" selection-start-line="16" selection-start-column="92" selection-end-line="16" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/ListRecipes.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="1403" selection-start-line="1403" selection-end-line="1403" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/dao/interfaces/RecipeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="79" selection-start-line="26" selection-start-column="79" selection-end-line="26" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/dao/mapper/RecipeMapperCountComment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1228,79 +1055,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/model/Recipe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="123" column="34" selection-start-line="123" selection-start-column="19" selection-end-line="123" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2992#2993#0" expanded="true" />
-            <element signature="e#3027#3028#0" expanded="true" />
-            <element signature="e#3084#3085#0" expanded="true" />
-            <element signature="e#3132#3133#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/dao/implementation/RecipeDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="83" column="245" selection-start-line="83" selection-start-column="245" selection-end-line="83" selection-end-column="245" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cookbook/test/RecipeDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="68" column="6" lean-forward="true" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="90" column="8" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/model/Subject.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/model/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="18" lean-forward="true" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/controller/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/dao/mapper/ContactMapper.java" />
-    <provider selected="true" editor-type-id="text-editor" />
-    <state relative-caret-position="240" />
-    <caret line="20" selection-start-line="20" selection-end-line="20" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/service/interfaces/ContactUsService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1308,32 +1063,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/AboutUs.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="44" column="23" selection-start-line="44" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/controller/AboutUsController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228" />
-        <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Recipies.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Recipies.html" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/dao/interfaces/ContactDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1351,7 +1086,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/dao/mapper/ContactMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
@@ -1367,75 +1102,261 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cookbook/test/ContactDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168" />
-        <caret line="42" column="85" selection-start-line="42" selection-start-column="85" selection-end-line="42" selection-end-column="85" />
         <state relative-caret-position="228">
-          <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.ftl">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="227" column="58" selection-start-line="227" selection-start-column="53" selection-end-line="227" selection-end-column="58" />
+        <state relative-caret-position="263">
+          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-921">
+          <caret line="1310" column="45" selection-start-line="1310" selection-start-column="45" selection-end-line="1310" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/model/ContactUs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="e#1475#1476#0" expanded="true" />
+            <element signature="e#1507#1508#0" expanded="true" />
+            <element signature="e#1555#1556#0" expanded="true" />
+            <element signature="e#1597#1598#0" expanded="true" />
+            <element signature="e#1632#1633#0" expanded="true" />
+            <element signature="e#1663#1664#0" expanded="true" />
+            <element signature="e#1711#1712#0" expanded="true" />
+            <element signature="e#1751#1752#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/controller/ContactUsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="40" column="41" lean-forward="true" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+        <state relative-caret-position="90">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/model/TypeRecipe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cookbook/test/RecipeDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-            <element signature="e#690#691#0" expanded="true" />
+            <element signature="e#2913#2914#0" expanded="true" />
+            <element signature="e#3001#3002#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/ContactUs.ftl">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/dao/interfaces/RecipeDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="118" column="27" lean-forward="true" selection-start-line="118" selection-start-column="27" selection-end-line="118" selection-end-column="27" />
+        <state relative-caret-position="390">
+          <caret line="26" column="28" selection-start-line="26" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error404.ftl" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/controller/ErrorController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/config/SpringConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="67" column="15" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1886#1887#0" expanded="true" />
+            <element signature="e#1934#1935#0" expanded="true" />
+            <element signature="e#2230#2231#0" expanded="true" />
+            <element signature="e#2277#2278#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/82c2c93f-549d-47f4-9473-93d1b1fc3b5e/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
+          <caret column="171" lean-forward="true" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/model/ContactUs.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/dao/implementation/RecipeDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="74" column="33" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
+        <state relative-caret-position="117">
+          <caret line="41" column="77" selection-start-line="41" selection-start-column="77" selection-end-line="41" selection-end-column="77" />
           <folding>
-            <element signature="e#1668#1669#0" expanded="true" />
-            <element signature="e#1716#1717#0" expanded="true" />
-            <element signature="e#1756#1757#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/model/ContactUs.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/model/Recipe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="865">
-          <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+        <state relative-caret-position="50">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="29" />
           <folding>
-            <element signature="e#1477#1478#0" expanded="true" />
-            <element signature="e#1508#1509#0" expanded="true" />
-            <element signature="e#1558#1559#0" expanded="true" />
-            <element signature="e#1598#1599#0" expanded="true" />
-            <element signature="e#1632#1633#0" expanded="true" />
-            <element signature="e#1664#1665#0" expanded="true" />
-            <element signature="e#1712#1713#0" expanded="true" />
-            <element signature="e#1754#1755#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2992#2993#0" expanded="true" />
+            <element signature="e#3027#3028#0" expanded="true" />
+            <element signature="e#3084#3085#0" expanded="true" />
+            <element signature="e#3132#3133#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/controller/RecipeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="87" column="24" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/service/interfaces/RecipeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/service/RecipeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="88" column="47" selection-start-line="88" selection-start-column="47" selection-end-line="88" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#save#0;class#RecipeServiceImpl#0" />
+            <element signature="method#findByNameTypeRecipe#0;class#RecipeServiceImpl#0" />
+            <element signature="method#findByFoodAndRecipe#0;class#RecipeServiceImpl#0" />
+            <element signature="e#2025#2026#0" expanded="true" />
+            <element signature="e#2081#2082#0" expanded="true" />
+            <element signature="e#2141#2142#0" expanded="true" />
+            <element signature="e#2187#2188#0" expanded="true" />
+            <element signature="e#2257#2258#0" expanded="true" />
+            <element signature="e#2312#2313#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookbook/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="55" column="118" selection-start-line="55" selection-start-column="118" selection-end-line="55" selection-end-column="118" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Edit.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/AddNewRecipe.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="45" column="61" selection-start-line="45" selection-start-column="61" selection-end-line="45" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/AboutUs.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/ContactUs.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="377" column="31" selection-start-line="377" selection-start-column="31" selection-end-line="377" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/GetOneRecept.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Recipies.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/ListRecipes.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Vegan4.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="80" column="14" lean-forward="true" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
         </state>
       </provider>
     </entry>

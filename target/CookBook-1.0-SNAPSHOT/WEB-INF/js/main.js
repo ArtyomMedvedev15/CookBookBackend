@@ -90,7 +90,13 @@ $(function() {
             1000
         );
 
-    $('select').multipleSelect();
+var ratingOneRecept = document.querySelector("#RatingOneRecept").getAttribute('rate');
 
-
+    $('#RatingOneRecept').rateYo({
+    normalFill: "#A0A0A0",
+    starWidth: "15px",
+    numStars: 5,
+    rating: ratingOneRecept,
+    readOnly: true
+});
 });

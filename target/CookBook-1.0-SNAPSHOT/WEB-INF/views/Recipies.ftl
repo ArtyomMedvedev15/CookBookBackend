@@ -53,16 +53,16 @@
                 <div class="menu-wrap">
                     <div class="menu-sidebar">
                         <div class="mob__logo">
-                            <a href="#">
-                                <img src="../img/logos.png" alt="logo">
+                            <a href="/CookBook_war/">
+                                <img src="img/logos.png" alt="logo">
                             </a>
                         </div>
                         <ul class="mob__menu">
                             <li><a href="/CookBook_war/">Home</a></li>
-                            <li><a href="#">About us</a></li>
-                            <li><a href="#">Receipies</a></li>
-                            <li><a href="#">4 Vegans</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="/CookBook_war/about/aboutUs">About us</a></li>
+                            <li><a href="/CookBook_war/recipes/recipies">Receipies</a></li>
+                            <li><a href="/CookBook_war/recipes/vegans">4 Vegans</a></li>
+                            <li><a href="/CookBook_war/contact/contactUs">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -70,9 +70,9 @@
                     <ul>
                         <li><a href="/CookBook_war/">Home</a></li>
                         <li><a href="/CookBook_war/about/aboutUs">About us</a></li>
-                        <li><a href="#">Receipies</a></li>
-                        <li><a href="#">4 Vegans</a></li>
-                        <li><a href="">Contact</a></li>
+                        <li><a href="/CookBook_war/recipes/recipies">Receipies</a></li>
+                        <li><a href="/CookBook_war/recipes/vegans">4 Vegans</a></li>
+                        <li><a href="/CookBook_war/contact/contactUs">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -81,173 +81,61 @@
     <div class="contact-logo">
         <div class="layer"></div>
         <div class="contact-text">
-            Contact
+            Recipies
         </div>
     </div>
 </header>
+
 <section class="find__receipies">
     <div class="container">
         <div class="find__inner">
-            <form action="" method="post">
-                <select>
-                    <option value="1">January</option>
-                    <option value="12">December</option>
-                </select>
-
-                <select>
-                    <option value="1">January</option>
-                    <option value="12">December</option>
-                </select>
-                <input type="text" placeholder="Search">
-
+            <form action="/CookBook_war/recipes/findbyNameAndTypes" method="post">
+                <input name="filter" type="text" placeholder="Search">
+                    <div class="selectdiv">
+                        <label>
+                            Choose one:
+                            <select name = "typeFood">
+                                <option selected>None</option>
+                                 <#list tf as t>
+                                <option value="${t}">${t}</option>
+                                </#list>
+                             </select>
+                        </label>
+                    </div>
+                <div class="selectdiv">
+                    <label>
+                        Choose one:
+                        <select name="typeRecipe">
+                            <option selected>None</option>
+                            <#list tr as t>
+                             <option value="${t}">${t}</option>
+                            </#list>
+                         </select>
+                    </label>
+                </div>
                 <button type="submit" class="default-btn">Search</button>
             </form>
         </div>
+        <p id="result"><#if result??>${result}</p></#if>
         <div class="items">
+            <#list resps as rp>
             <div class="item__inner">
                 <div class="item__image">
-                    <img src="img/blog-img/2.jpg" alt="TestFind">
+                    <img src="../${rp.imgPath}" alt="TestFind">
                 </div>
                 <div class="item__describe">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, commodi! Dolore, nesciunt mollitia facere repellendus similique voluptatem ratione. Rerum voluptatum sit necessitatibus dolore sed quasi cum natus cupiditate, fugit
-                        quibusdam?
+                    <p id="cardName">${rp.nameRecipe}</p>
+                    <p>${rp.describe}
                     </p>
                 </div>
                 <div class="item__rating">
-
+                    <p>Rate: ${rp.rating}</p>
                 </div>
                 <div class="item__more">
-                    <a href="#" class="default-btn">More</a>
+                    <a href="/CookBook_war/recipes/getOneRecept/${rp.id}" class="default-btn">More</a>
                 </div>
             </div>
-            <div class="item__inner">
-                <div class="item__image">
-                    <img src="img/blog-img/2.jpg" alt="TestFind">
-                </div>
-                <div class="item__describe">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, commodi! Dolore, nesciunt mollitia facere repellendus similique voluptatem ratione. Rerum voluptatum sit necessitatibus dolore sed quasi cum natus cupiditate, fugit
-                        quibusdam?
-                    </p>
-                </div>
-                <div class="item__rating">
-
-                </div>
-                <div class="item__more">
-                    <a href="#" class="default-btn">More</a>
-                </div>
-            </div>
-            <div class="item__inner">
-                <div class="item__image">
-                    <img src="img/blog-img/2.jpg" alt="TestFind">
-                </div>
-                <div class="item__describe">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, commodi! Dolore, nesciunt mollitia facere repellendus similique voluptatem ratione. Rerum voluptatum sit necessitatibus dolore sed quasi cum natus cupiditate, fugit
-                        quibusdam?
-                    </p>
-                </div>
-                <div class="item__rating">
-
-                </div>
-                <div class="item__more">
-                    <a href="#" class="default-btn">More</a>
-                </div>
-            </div>
-            <div class="item__inner">
-                <div class="item__image">
-                    <img src="img/blog-img/2.jpg" alt="TestFind">
-                </div>
-                <div class="item__describe">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, commodi! Dolore, nesciunt mollitia facere repellendus similique voluptatem ratione. Rerum voluptatum sit necessitatibus dolore sed quasi cum natus cupiditate, fugit
-                        quibusdam?
-                    </p>
-                </div>
-                <div class="item__rating">
-
-                </div>
-                <div class="item__more">
-                    <a href="#" class="default-btn">More</a>
-                </div>
-            </div>
-            <div class="item__inner">
-                <div class="item__image">
-                    <img src="img/blog-img/2.jpg" alt="TestFind">
-                </div>
-                <div class="item__describe">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, commodi! Dolore, nesciunt mollitia facere repellendus similique voluptatem ratione. Rerum voluptatum sit necessitatibus dolore sed quasi cum natus cupiditate, fugit
-                        quibusdam?
-                    </p>
-                </div>
-                <div class="item__rating">
-
-                </div>
-                <div class="item__more">
-                    <a href="#" class="default-btn">More</a>
-                </div>
-            </div>
-            <div class="item__inner">
-                <div class="item__image">
-                    <img src="img/blog-img/2.jpg" alt="TestFind">
-                </div>
-                <div class="item__describe">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, commodi! Dolore, nesciunt mollitia facere repellendus similique voluptatem ratione. Rerum voluptatum sit necessitatibus dolore sed quasi cum natus cupiditate, fugit
-                        quibusdam?
-                    </p>
-                </div>
-                <div class="item__rating">
-
-                </div>
-                <div class="item__more">
-                    <a href="#" class="default-btn">More</a>
-                </div>
-            </div>
-            <div class="item__inner">
-                <div class="item__image">
-                    <img src="img/blog-img/2.jpg" alt="TestFind">
-                </div>
-                <div class="item__describe">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, commodi! Dolore, nesciunt mollitia facere repellendus similique voluptatem ratione. Rerum voluptatum sit necessitatibus dolore sed quasi cum natus cupiditate, fugit
-                        quibusdam?
-                    </p>
-                </div>
-                <div class="item__rating">
-
-                </div>
-                <div class="item__more">
-                    <a href="#" class="default-btn">More</a>
-                </div>
-            </div>
-            <div class="item__inner">
-                <div class="item__image">
-                    <img src="img/blog-img/2.jpg" alt="TestFind">
-                </div>
-                <div class="item__describe">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, commodi! Dolore, nesciunt mollitia facere repellendus similique voluptatem ratione. Rerum voluptatum sit necessitatibus dolore sed quasi cum natus cupiditate, fugit
-                        quibusdam?
-                    </p>
-                </div>
-                <div class="item__rating">
-
-                </div>
-                <div class="item__more">
-                    <a href="#" class="default-btn">More</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="pagination-wrapper">
-        <div class="pagination">
-            <a class="prev page-numbers" href="javascript:;">prev</a>
-            <span aria-current="page" class="page-numbers current">1</span>
-            <a class="page-numbers" href="javascript:;">2</a>
-            <a class="page-numbers" href="javascript:;">3</a>
-            <a class="page-numbers" href="javascript:;">4</a>
-            <a class="page-numbers" href="javascript:;">5</a>
-            <a class="page-numbers" href="javascript:;">6</a>
-            <a class="page-numbers" href="javascript:;">7</a>
-            <a class="page-numbers" href="javascript:;">8</a>
-            <a class="page-numbers" href="javascript:;">9</a>
-            <a class="page-numbers" href="javascript:;">10</a>
-            <a class="next page-numbers" href="javascript:;">next</a>
+            </#list>
         </div>
     </div>
 </section>

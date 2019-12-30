@@ -50,16 +50,16 @@
                 <div class="menu-wrap">
                     <div class="menu-sidebar">
                         <div class="mob__logo">
-                            <a href="#">
-                                <img src="../img/logos.png" alt="logo">
+                            <a href="/CookBook_war/">
+                                <img src="img/logos.png" alt="logo">
                             </a>
                         </div>
                         <ul class="mob__menu">
                             <li><a href="/CookBook_war/">Home</a></li>
                             <li><a href="/CookBook_war/about/aboutUs">About us</a></li>
-                            <li><a href="#">Receipies</a></li>
-                            <li><a href="#">4 Vegans</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="/CookBook_war/recipes/recipies">Receipies</a></li>
+                            <li><a href="/CookBook_war/recipes/vegans">4 Vegans</a></li>
+                            <li><a href="/CookBook_war/contact/contactUs">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -67,8 +67,8 @@
                     <ul>
                         <li><a href="/CookBook_war/">Home</a></li>
                         <li><a href="/CookBook_war/about/aboutUs">About us</a></li>
-                        <li><a href="#">Receipies</a></li>
-                        <li><a href="#">4 Vegans</a></li>
+                        <li><a href="/CookBook_war/recipes/recipies">Receipies</a></li>
+                        <li><a href="/CookBook_war/recipes/vegans">4 Vegans</a></li>
                         <li><a href="/CookBook_war/contact/contactUs">Contact</a></li>
                     </ul>
                 </nav>

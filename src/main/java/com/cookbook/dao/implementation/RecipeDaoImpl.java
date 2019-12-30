@@ -38,8 +38,8 @@ public class RecipeDaoImpl implements RecipeDao {
 
     @Override
     public Recipe getById(Integer id) {
-        String sql = "SELECT * FROM Recipes WHERE id = ?";
-        return jdbcTemplate.queryForObject(sql,new RecipeMapper(),id);
+        String sql = "SELECT Recipes.id,nameRecipe,describeRecipe,imgPath,Recipes.DateAdd,TypeFoodId,TypeRecipeId,TypeViewId,Rating,COUNT(c.TextComment)FROM Recipes left join CommentRecipes as c on Recipes.id = c.id WHERE Recipes.id = ? ";
+        return jdbcTemplate.queryForObject(sql,new RecipeMapperCountComment(),id);
     }
 
     @Override
@@ -83,6 +83,18 @@ public class RecipeDaoImpl implements RecipeDao {
     public List<Recipe> findByTypeFood(TypeFood typeFood) {
         String sql = " select Recipes.id,nameRecipe,describeRecipe,imgPath,Recipes.DateAdd,TypeFoodId,TypeRecipeId,TypeViewId,Rating,COUNT(c.TextComment) from Recipes left join CommentRecipes as c on Recipes.id = c.RecipeId  where TypeFoodId = ? GROUP BY Recipes.id";
         return jdbcTemplate.query(sql,new RecipeMapperCountComment(),typeFood.ordinal());
+    }
+
+    @Override
+    public List<Recipe> findByTypeRecipe(TypeRecipe typeRecipe) {
+        String sql = " select Recipes.id,nameRecipe,describeRecipe,imgPath,Recipes.DateAdd,TypeFoodId,TypeRecipeId,TypeViewId,Rating,COUNT(c.TextComment) from Recipes left join CommentRecipes as c on Recipes.id = c.RecipeId  where TypeRecipeId = ? GROUP BY Recipes.id";
+        return jdbcTemplate.query(sql,new RecipeMapperCountComment(),typeRecipe.ordinal());
+    }
+
+    @Override
+    public List<Recipe> findByNameTypeRecipe(String name, TypeRecipe typeRecipe) {
+        String sql = "SELECT * FROM Recipes WHERE nameRecipe = ? and TypeRecipeId = ?";
+        return jdbcTemplate.query(sql,new RecipeMapper(),name,typeRecipe.ordinal());
     }
 
     @Override

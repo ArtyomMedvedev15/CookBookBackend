@@ -51,7 +51,9 @@ public class AdminController {
         model.addAttribute("typefood", TypeFood.values());
         model.addAttribute("typerecipe", TypeRecipe.values());
         model.addAttribute("typegoal", TypeGoal.values());
-
+        model.addAttribute("tpF",recipeService.getTypeFood(recipeService.getById(Integer.valueOf(id)).getTypeFood()));
+        model.addAttribute("tpR",recipeService.getTypeRecipe(recipeService.getById(Integer.valueOf(id)).getTypeRecipe()));
+        model.addAttribute("tpG",recipeService.getTypeView(recipeService.getById(Integer.valueOf(id)).getTypeGoal()));
         return "Edit";
     }
 

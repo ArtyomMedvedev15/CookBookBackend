@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Home</title>
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/media.css">
@@ -55,8 +55,8 @@
                             <ul class="mob__menu">
                                 <li><a href="/CookBook_war/">Home</a></li>
                                 <li><a href="/CookBook_war/about/aboutUs">About us</a></li>
-                                <li><a href="/CookBook_war/">Receipies</a></li>
-                                <li><a href="/CookBook_war/">4 Vegans</a></li>
+                                <li><a href="/CookBook_war/recipes/recipies">Receipies</a></li>
+                                <li><a href="/CookBook_war/recipes/vegans">4 Vegans</a></li>
                                 <li><a href="/CookBook_war/contact/contactUs">Contact</a></li>
                             </ul>
                         </div>
@@ -65,8 +65,8 @@
                         <ul>
                             <li><a href="/CookBook_war/">Home</a></li>
                             <li><a href="/CookBook_war/about/aboutUs">About us</a></li>
-                            <li><a href="/CookBook_war/">Receipies</a></li>
-                            <li><a href="/CookBook_war/">4 Vegans</a></li>
+                            <li><a href="/CookBook_war/recipes/recipies">Receipies</a></li>
+                            <li><a href="/CookBook_war/recipes/vegans">4 Vegans</a></li>
                             <li><a href="/CookBook_war/contact/contactUs">Contact</a></li>
                         </ul>
                     </nav>
